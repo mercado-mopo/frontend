@@ -4,10 +4,11 @@ import { FooterNavigationComponent } from '../../shared/footer-navigation/footer
 import { RevenueModel } from '../../models/RevenueModel';
 import { CardRevenueComponent } from "../../shared/card-revenue/card-revenue.component";
 import { NgFor } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-revenues',
-  imports: [FooterNavigationComponent, NgFor, CardRevenueComponent],
+  imports: [FooterNavigationComponent, NgFor, CardRevenueComponent, RouterLink],
   templateUrl: './revenues.component.html',
   styleUrl: './revenues.component.scss',
   standalone: true

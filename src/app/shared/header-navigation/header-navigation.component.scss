@@ -1,12 +1,26 @@
 nav {
-  display: flex;
-  justify-content: space-around;
+  // display: flex;
+  // justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
   background-color: var(--green);
 
-  padding: 1rem;
+  height: 3rem;
+  // padding: 1rem;
   a {
     color: var(--white);
     border-radius: var(--radius);
     text-align: center;
+  }
+
+  a:hover{
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    background-color: rgb(1, 43, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

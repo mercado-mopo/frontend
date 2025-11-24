@@ -1,6 +1,6 @@
 <section>
   <form action="" method="post">
-    <label for="username">Username</label>
+    <label for="username">Nome de usuário</label>
     <input
       type="text"
       id="username"
@@ -22,18 +22,18 @@
       autocomplete="email"
       required
     />
-    <label for="password">Password</label>
+    <label for="password">Senha</label>
     <input
       type="password"
       id="password"
       name="password"
-      placeholder="*******"
+      placeholder="Mínimo: 8 dígitos / máximo: 20 dígitos"
       minlength="8"
       maxlength="20"
       autocomplete="current-password"
       required
     />
-    <button class="yellow-button" type="submit">Sign Up</button>
+    <button class="yellow-button" type="submit">Cadastrar-se</button>
 
     <input type="checkbox" id="updates" />
     <label for="updates"
@@ -50,7 +50,7 @@
   </form>
 
   <nav>
-    <a routerLink="/sign-in" rel="internal">SignIn</a>
+    <a routerLink="/sign-in" rel="internal">Acessar</a>
   </nav>
 </section>
 

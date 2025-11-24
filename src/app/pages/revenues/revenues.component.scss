@@ -63,4 +63,18 @@
   }
 }
 
+.register{
+  text-align: center;
+  margin: 2%;
 
+  a{
+    background-color: var(--yellow);
+    color: black;
+    padding: 1%;
+    border-radius: var(--radius);
+  }
+
+  a:hover{
+    background-color: rgb(235, 126, 0);
+  }
+}
